@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Борисов Тимофій</title>
+	</head>
+	<body>
+		<main style="border: 1px solid; padding: 6px; float: left;">
+			<div>
+				<h1>
+					Payment form
+				</h1>
+				<p>
+					Required fields are followed by *.
+				</p>
+				<h1>			
+					Contact information
+				</h1>
+			</div>
+			<form>
+				<div>
+					<fieldset>
+						<legend>Title</legend>
+						<input type="radio" name="title" id="ace">
+						<label for="ace">Ace</label><br>
+						<input type="radio" name="title" id="king">
+						<label for="king">King</label><br>
+						<input type="radio" name="title" id="queen">
+						<label for="queen">Queen</label><br>
+					</fieldset><br>
+				</div>
+				<div>
+					<div>
+						<label style="margin: 2px;" for="name" >Name:*</label><br>
+						<input id="name" type="text" name="client"><br> 
+					</div><br>
+					<div>
+						<label style="margin: 2px;" for="email">Email:*</label><br> 
+						<input id="email" type="text" name="email"><br> 
+					</div><br>
+					<div>
+						<label style="margin: 2px;" for="password">Password:*</label><br> 
+						<input id="password" type="password" name="password"><br> 
+					</div>
+				</div>						
+				<div>
+					<h3>
+						Payment information
+					</h3>
+					<div>
+						<select name="card">
+							<option>Visa</option>
+							<option>Mastercard</option>
+							<option>American Express</option>
+						</select><br>
+					</div><br>
+					<div>
+						<label style="margin: 2px;" for="card" >Card namber:*</label><br>
+						<input id="card" type="text" name="card"><br> 
+					</div><br>
+					<div>
+						<label style="margin: 2px;" for="date" >Expiration date:*</label><br>
+						<input placeholder="YY/MM" id="date" type="date" name="date"><br> 
+					</div><br>
+					<div>
+						<button>Validate the payment</button>
+					</div>
+				</div>
+			</form>
+		</main>
+	</body>
+</html>
